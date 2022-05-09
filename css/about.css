@@ -20,6 +20,7 @@ header {
 nav {
     display: flex;
     justify-content: space-between;
+    font-family: 'haboro-soft-extended', sans-serif;
     background-color: white;
     align-items: center;
     margin: 0px;
@@ -61,28 +62,32 @@ p {
 
 button {
     display: grid;
-    width: 33%;
+    width: 25%;
     background-color: hsl(331, 19%, 45%);
     background: linear-gradient(hsl(331, 19%, 45%), hsl(331, 19%, 45%) 50%, white 50%, white);
     background-size: 100% 200%;
     border: solid hsl(331, 19%, 45%);
+    font-family: 'haboro-soft-extended', sans-serif;
     color: white;
     padding: 30px;
     height: 30px;
     align-content: center;
     transition: .3s;
+    text-decoration: none;
 }
 
 button:hover {
     background-color: white;
     background-position: 100% 100%;
     color:hsl(331, 19%, 45%);
+    text-decoration: none;
 }
 
 .accordion{
-    width:100%;
+    width: 80%;
     margin: 5%;
     font-family: 'Sanchez', serif;
+    align-content: center;
 }
 
 /* accordion heading */
@@ -105,7 +110,7 @@ button:hover {
 /* accordion section content */
 .accordion div{
     font-family: 'Sanchez' serif;
-    display:none;
+    display: none;
     padding:10px;
     height:100px;
     line-height:20px;
@@ -114,34 +119,29 @@ button:hover {
     text-align: left;
 }
 
-@media screen and (max-width:480px){
-    .accordion{
-        width:100%;
-        margin:0;
-    }
-}
-
-footer{ 
-    background-color: hsl(331, 19%, 45%); 
-}
-
 footer {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-evenly;
     padding: 5%;
     margin: 0%;
     height: 40px;
     width: 100%;
     align-items: center;
     background-color: hsl(331, 19%, 45%);
-    font-family: 'Noto Sans', sans-serif;
-}
-
-footer, .contact {
+    font-family: 'haboro-soft-extended', sans-serif;
+  }
+  
+  footer, .contact {
     color: white;
     text-decoration: none;
     font-size: 12px;
+    
+  }
+
+@media screen and (max-width:480px){
+    .accordion{
+        width:100%;
+        margin:0;
 }
 
 /* font-family: 'Sanchez', serif;

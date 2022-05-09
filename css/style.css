@@ -27,7 +27,7 @@ nav {
 
 nav a {
   text-decoration: none;
-  font-family: 'Noto-sans', sans-serif;
+  font-family: 'haboro-soft-extended', sans-serif;
   color: black;
 }
 
@@ -49,7 +49,8 @@ nav a {
 }
 
 button {
-  font-family: 'Noto-sans', sans-serif;
+  font-family: 'haboro-soft-extended', sans-serif;
+  font-style: normal;
   color: white;
   background-color: #005D6C;
   background: linear-gradient(#005D6C, #005D6C 50%, white,white 50%);
@@ -66,7 +67,7 @@ hr.solid {
 
 .banner {
   width: 100%;
-  height: 500px;
+  height: 300px;
   background-image: url("../images/Web_banner_3-01.png");
   background-size: 100%;
   background-size: cover;
@@ -74,7 +75,9 @@ hr.solid {
 }
 
 h1 {
-  font-family: 'Noto-sans', sans-serif;
+  font-family: 'haboro-soft-extended', sans-serif;
+  font-weight: 700px;
+  font-style: normal;
   text-transform: uppercase;
   font-size: 3rem;
   color: #232932;
@@ -91,7 +94,9 @@ p2 {
 }
 
 h2 {
-  font-family: 'Noto-sans', sans-serif;
+  font-family: 'haboro-soft-extended', sans-serif;
+  font-weight: 700px;
+  font-style: normal;
   text-transform: uppercase;
   font-size: 2rem;
   position: relative;
@@ -125,7 +130,9 @@ h2 {
 }
 
 h3 {
-  font-family: 'Noto-sans', sans-serif;
+  font-family: 'haboro-soft-extended', sans-serif;
+  font-weight: 700px;
+  font-style: normal;
   text-transform: uppercase;
   font-size: 1.6rem;
   color: #232932;
@@ -180,7 +187,7 @@ footer {
   width: 100%;
   align-items: center;
   background-color: hsl(331, 19%, 45%);
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'haboro-soft-extended', sans-serif;
 }
 
 footer, .contact {
